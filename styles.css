@@ -1,0 +1,52 @@
+.heading {
+  padding: 3%;
+  text-align: center;
+  background-color: #ffeded;
+}
+.mainHeading {
+  font-size: 3rem;
+  color: #ff00e4;
+}
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+  padding-left: 5%;
+}
+.img {
+  padding: 2% 5.7% 1%;
+}
+.mask {
+  float: right;
+  padding-right: 10%;
+}
+.btn {
+    background: #FFEDED;
+    background-image: -webkit-linear-gradient(top, #FFEDED, #FF00E4);
+    background-image: -moz-linear-gradient(top, #FFEDED, #FF00E4);
+    background-image: -ms-linear-gradient(top, #FFEDED, #FF00E4);
+    background-image: -o-linear-gradient(top, #FFEDED, #FF00E4);
+    background-image: linear-gradient(to bottom, #FFEDED, #FF00E4);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 6px 10px 6px 12px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #ff00ff;
+    text-decoration: none;
+}
+.compress {
+  padding-left: 45%;
+}
+.can{
+    padding: 5.7%;
+}

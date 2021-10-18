@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/17f20474c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 class="mainHeading">
+            Seam Carving
+        </h1>
+    </div>
+    <div> 
+        
+        <div class="img">Image: <input id="imageUpload" type="file" accept="image/*"></div>
+
+        <div class="Row">
+            <div class="Column">Height: <input id="height" type="text" value='80'> % </div>
+            <div class="Column">Width: <input id="width" type="text" value = '80'> %</div>
+            <div class="Column">Amplify: <input id="amplify" type="text"> %</div>
+        </div>
+
+        <div class="mask"><i class="fas fa-pen pen">Mask</i></div>
+        
+        
+    </div>
+    <div class="can"><canvas id="myCanvas"></canvas></div>
+    
+    <div class="compress"><button class="btn">Compress</button></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="calculateEnergyMap.js"></script>
+    <script src="findLowEnergySeam.js"></script>
+    <script src="deleteSeam.js"></script>
+    <script src="addSeam.js"></script>
+    <script src="index.js"></script>
+    <script src="imageMasking.js"></script>
+</body>
+</html>

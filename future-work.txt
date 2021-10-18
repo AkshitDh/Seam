@@ -1,0 +1,9 @@
+Implemented "Content-aware image resizing- Seam carving" by Shai Avidan and Ariel Shamir,
+
+created a GUI with an improved algorithm using multi-operators. 
+Programmed the following modules: Seam removal (using dynamic programming), object protection,
+
+Gradient domain carving (using poisson reconstructor), Saliency (multi-operator, 
+and Gaussian pyramid framework to speed up the results by five times.
+The project also included T-Map ordering for optimization 
+and line detection to compute the intermediate energy map of the image in MATLAB.
